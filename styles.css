@@ -47,7 +47,7 @@ body{
     justify-content: center;
     text-transform: uppercase;
     font-size: 1.5rem;
-    margin-top: -3rem;
+    /* margin-top: -3rem; */
     margin-bottom: 1.5rem;
     background-color: rgb(255, 217, 0);
     padding: 1.6rem;
@@ -59,7 +59,7 @@ body{
     align-items: center;
     justify-content: center;
     margin-bottom: 2rem;
-    margin-top: -4rem;
+    /* margin-top: -4rem; */
     gap: 2rem;
     
 }
