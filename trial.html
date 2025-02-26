@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+  <div id="main-div-interphase" class="mainDiv">
+    <div class="header">
+        <p>Sencier</p>
+    <p class="score-board">Computer 0 0 Player</p>
+    </div>
+  
+    
+    <div class="checkers">
+      <h2 class="checkers-title">Computer</h2>
+      <p class="checkers-emoji">✊</p>
+    </div>
+
+    <p class="score">Currently Draw</p>
+
+    <div class="checkers">
+        <h2 class="checkers-title">Player</h2>
+        <p class="checkers-emoji">✊</p>
+    </div>
+    <div class="play">
+      <button class="play-button" id="rock-button" onclick="playGame('Rock')">
+        <p class="play-emoji">✊</p>
+        <p class="play-text">Rock</p>
+      </button>
+
+      <button class="play-button" id="rock-button" onclick="playGame('Paper')">
+        <p class="play-emoji">✋</p>
+        <p class="play-text">Paper</p>
+      </button>
+
+      <button class="play-button" id="rock-button" onclick="playGame('Scissors')">
+        <p class="play-emoji">✌️</p>
+        <p class="play-text">Scissors</p>
+      </button>
+
+    </div>
+    
+
+  </div>
+
+    <script src="styles.js"></script>
+  </body>
+</html>
