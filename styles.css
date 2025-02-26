@@ -60,7 +60,7 @@ body{
 
 .play {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     align-items: center;
     justify-content: center;
     margin-bottom: 2rem;
@@ -72,7 +72,7 @@ body{
 }
 .play-button {
     border: none;
-    border-radius: 10px;
+    border-radius: 1rem;
     padding: 0 2rem;
 }
 .play-emoji {
