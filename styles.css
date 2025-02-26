@@ -53,10 +53,10 @@ body{
     justify-content: center;
     text-transform: uppercase;
     font-size: 1rem;
-    margin-top: -3rem;
-    margin-bottom: 1.5rem;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
     background-color: rgb(255, 217, 0);
-    padding: 1.6rem;
+    padding: 1rem;
 }
 
 .play {
