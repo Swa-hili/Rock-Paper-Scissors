@@ -5,6 +5,7 @@
 }
 
 #main-div-interphase {
+    display: flexbox;
     min-height: 100vh;
     min-width: 50vh;
 }
@@ -39,7 +40,7 @@ body{
 }
 
 .checkers-title {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .checkers-emoji {
@@ -76,13 +77,14 @@ body{
     border: none;
     border-radius: 10px;
     padding: 0 2rem;
+    display: inline-block;
 }
 .play-emoji {
-    font-size: 2rem;
+    font-size: 1.2em;
 }
 
 .play-text {
-    font-size: 1rem;
+    font-size: 0.6em;
     font-family: "Press Start 2P" ;
     margin-top: 0;
 }
