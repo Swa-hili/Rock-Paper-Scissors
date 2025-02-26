@@ -40,7 +40,7 @@ body{
 }
 
 .checkers-title {
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .checkers-emoji {
@@ -54,11 +54,11 @@ body{
     text-align: center;
     justify-content: center;
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-top: -3rem;
     margin-bottom: 1.5rem;
     background-color: rgb(255, 217, 0);
-    padding: 1.6rem;
+    padding: 1.4rem;
 }
 
 .play {
