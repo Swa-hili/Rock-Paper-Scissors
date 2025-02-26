@@ -17,8 +17,7 @@ body{
 }
 .mainDiv{
     background-color: rgb(198, 212, 0);
-    min-height: 100vh;
-    min-width: 100vh;
+     
 }
 .header {
     display: flex;
@@ -31,8 +30,8 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 4rem;
-    padding: 2rem;
+    border-radius: 2rem;
+    padding: 1rem;
 }
 
 .checkers-title {
