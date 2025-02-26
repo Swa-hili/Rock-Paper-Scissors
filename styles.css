@@ -5,7 +5,7 @@
 }
 
 #main-div-interphase {
-    min-height: 100vh;
+    min-height: 80vh;
     min-width: 50vh;
 }
 
@@ -34,24 +34,25 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 4rem;
 }
 
 .checkers-title {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .checkers-emoji {
-    font-size: 6rem;
+    font-size: 5rem;
     border: dotted black 1px;
     padding: 1rem;
-    margin-top: 0.5rem;
+    margin-top: 0;
 }
 
 .score {
     text-align: center;
     justify-content: center;
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-top: -3rem;
     margin-bottom: 1.5rem;
     background-color: rgb(255, 217, 0);
